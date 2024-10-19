@@ -1,0 +1,276 @@
+---
+pagetitle: "Civic education as a tool to mitigate social inequalities in civic outcomes: a literature review."
+Author: Daniel Miranda
+bibliography: ref-extracts.bib
+csl: apa.csl
+
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"
+    R.options:
+      knitr.graphics.auto_pdf: true
+      
+format:
+  revealjs:
+   # logo: images/banner_nudos.jpg
+    slide-number: true
+    theme: [pp.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: fade
+    transition-speed: slow
+# data-background-image: images/cover.jpg
+# data-background-size: cover
+    auto-play-media: true
+  pdf:
+    format: beamer 
+    keep-tex: true  # Debug LaTeX output if needed
+editor: visual
+---
+
+::: columns
+::: {.column width="10%"}
+![](images/invalsi.png)
+
+![](images/datinvalsi.png)
+
+![](images/logo_nudos.jpg)
+
+![](images/coes.png)
+:::
+
+::: {.column .column-right width="85%"}
+<br>
+
+### **Civic education as a tool to mitigate social inequalities in civic outcomes: a literature review.**
+
+------------------------------------------------------------------------
+
+**Daniel Miranda**
+
+#### Department of Psychology, Universidad de Chile
+
+##### Millennium Nucleus of Inequalities and Digital Opportunities (*nudos.cl*)
+
+##### Centre for the Conflict and Social Cohesion Studies (*coes.cl*)
+
+##### FONDECYT 1240922: Youth political attitudes and behavior: inequality, school socialization styles and intergenerational influences
+
+IX Seminar Data of and for the Educational System: Tools for Research and Teaching- Rome, 17 -- 18 -- 19 October 2024
+:::
+:::
+
+::: notes
+The work that I will present is based in a book chapter that I developed for a book on how schools have the potential to equalize or mitigate the political inequlities during the socialization proccess.
+:::
+
+## Citizenship education agenda
+
+-   Why a review on this topic?
+
+    -   Current and previous project on political socialization
+
+    -   A general research questions that we address was:
+
+        -   What are the factors and mechanisms that explain the intergenerational transmission of political inequality?
+
+        -   To what extent is the school an agent that reproduces or mitigates the intergenerational transmission of family political inequality?
+
+::: notes
+:::
+
+## Political inequality
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Political inequality constitutes a threat to the principles of the democratic system [@burns1997; @solt2008].
+
+-   The proper functioning of democracy rests on its citizens equally participating in the decision-making processes, being interested in issues of social and political relevance, adhering to democratic principles, and developing attitudes and knowledge consistent with life in a democratic society.
+
+-   Some people, depending on their educational level, economic resources, gender or national origin, may have different degrees of access to political voice, interest in politics, knowledge, adherence to democratic values or principles, etc.
+:::
+
+::: notes
+To the extent that a particular type of citizen participates with greater probability, they will have greater chances of influencing the election of representatives, the promulgation of a law or the issues discussed in the public space. Likewise, certain citizens will have higher levels of knowledge about how the system works, greater access to information, greater interest in what happens in public spaces, or greater skills or attitudes to get involved and influence. Thus, it will generate inequalities in the abilities or interests to exert influence in the public space.
+:::
+
+## Family origin and civic outcomes
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Political inequalities are observed in the adult population and from an early age [@castillo2014; @meirick2004; @miranda2023]
+
+-   The family transmits beliefs, attitudes, knowledge and skills pertinent to exercising citizenship, directly socializing the offspring.
+
+-   Additionally, the family transmits the advantages of its social position to the next generation, which translates into a transmission of political inequality.
+:::
+
+::: notes
+For example, various studies show that in the school population, it is possible to identify significant socioeconomic gaps in civic knowledge, political self-efficacy or interest in participating electorally
+
+Inequalities in the social structure mark the experience of family political socialization. The family experience in different social positions also translates into other ways of experiencing politics, since within the family, the conditions of increasing stratification typical of modern societies are manifested [@cox2015].
+:::
+
+## Family origin and civic outcomes
+
+![](images/paste-9CD3AE8F.png)
+
+## Compensantion hypothesis
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   The school system provides a series of activities, defined both formally and informally, that have the potential to nurture those aspects relevant to the exercise of citizenship.
+
+-   The compensation hypothesis proposes that the school experience, ideally similar for all who attend, can level, moderate, mitigate or compensate for the gaps caused by social origin [@campbell2019].
+
+-   @langtonPoliticalSocializationHigh1968 describe that the middle class (socio-economically advantaged) benefits less from civic education than the working class (socio-economically disadvantaged, such as African Americans in their case) because of the redundancy of information (Ceiling effect, [@neundorf2016a]).
+:::
+
+## Compensation of inequalities (mitigate)
+
+![](images/paste-0B5B1518.png)
+
+::: notes
+Thus, for example, two students from very different social positions will develop similar levels of knowledge about the school system or propensity to participate politically because they have experienced similar political socialization processes at school. The idea of compensation for inequalities through the school experience is not only proposed for disparities in the political sphere but, for example, for inequality in academic achievement.
+:::
+
+## Maintainance of inequalities
+
+![](images/paste-9AA70400.png)
+
+::: notes
+Various authors have argued that this ideal is not met. Still, on the contrary, the school tends to operate as an agent that reproduces inequalities of origin instead of correcting them (Bernstein, Coleman, Bourdieu). In this sense, it is essential to ask whether the school experience of citizenship training compensates, accelerates or maintains inequalities of origin.
+
+An alternative perspective proposes that the school would not compensate for inequalities of origin but instead increase them (reinforces, reproduces, accelerates). To justify this perspective, reference is made to the specific norms and values of the different socioeconomic groups. Thus, it is proposed that privileged families would present a greater normative orientation towards participation, postmaterial values or concern for public issues (Inglehart, 1990). In that sense, family socialization tends to reproduce this set of norms and values more consistently with the contents and orientations of school political socialization (Bourdieu & Passeron, 1990). In contrast, young people from low socioeconomic levels would be exposed to school socialization activities that promote a more inconsistent set of values and norms.
+:::
+
+## Fostering inequalities
+
+![](images/paste-DF6C5825.png)
+
+## 
+
+::: {style="font-size: 150%; display: flex; justify-content: center; align-items: center"}
+</br> *The aims of this work in progress is to evaluate what the literature says about citizenship education's role in influencing origin's gaps, such as whether it has compensation, acceleration or maintenance effects.*
+:::
+
+# Review procedure
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Non sistematic review, focused on studies that test the hypothesis
+
+-   Up to now 25 papers between 1993 and 2024
+
+-   109 test, considering different dependent variables on some papers.
+:::
+
+# Review procedure
+
+![](images/paste-6DB2978B.png)
+
+# Review procedure
+
+::: {.incremental .highlight-last style="font-size: 80%;"}
+-   In a classic study at this point, @campbell2008 presents evidence in favour of the compensation hypothesis. Using data from the CIVED 1999 study for the 24 participating countries, the author shows that an open classroom climate compensated for the relationship of SES with acceptance of conflict and intention to vote. Two things stand out in this study. First, the climate variable is treated as a characteristic of schools. The school average is controlled by individual variability centred at schools. Second, it highlights that the SES variable is the expected education of the student as a proxy. Both ways of evaluating these variables are discussed and justified by the author and have been subsequently used by various authors.
+
+-   @deimel2020 evaluated the compensation role of students' perception of open classroom climate (usual index), participation at school (report of six-based civic activities) and formal citizenship education (extent of seven topics related to civic education) on the association among SES index with intended electoral participation. The authors used a four-country sample from ICCS 2016 (Belgium, Denmark, Germany and the Netherlands). Evidence indicates that participation at school compensates for SES inequalities in Intended Electoral Participation in Belgium in 2016. Formal citizenship education compensates for SES inequalities in the intended electoral participation of Denmark, Germany, and the Netherlands.
+:::
+
+# Results {data-background-color="#d3d3d3"}
+
+## Global results
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Regardless of the type of dependent variable, it is observed that 47 of the pieces of evidence refer to compensation effects (43.1%); 52 refer to maintenance, which implies that an effect was not observed (47.7%), and 10 refers to an acceleration effect (a 9.2%).
+
+-   Although the most common result is maintenance, the evidence favouring the compensation hypothesis is outstanding.
+:::
+
+## What is compensated?
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   **Participation**: Intention to vote, electoral participation, voter registration turnout, joining a political party, political participation, and future high-intensity participation, political discussion, expression of opinions, political engagement, expressive participation, index of political engagement, intended legal protest, Intended Illegal protest, use of social media
+
+-   **Knowledge:** we can distinguish, on the one hand, the concept of civic knowledge, coming mainly from the studies developed by the IEA, linked to the idea of **political sophistication** [@rapeli2013; @miranda2021a] and , on the other, **factual political** knowledge, which is closer to the idea of historical and political facts [@dellicarpiniWhatAmericansKnow1996].
+
+-   **Political or personal attitudes:** Regarding attitudes, it is possible to distinguish some articles that address agentic political attitudes, such as **political efficacy** (addressed 18 times), attitudes towards political system reflected in **political interest or support for democracy** (addressed five times), and attitudes towards social groups, such as tolerance or gender equality attitudes (addressed five times).
+:::
+
+## What is compensated?
+
+![](images/paste-A663A918.png){fig-align="center"}
+
+## How social origin is conceptualized?
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Multiple aspects of stratification as interchangeable or as a combination of the different aspects in a single indicator.
+
+-   An additional approach combines traditional socioeconomic variables with family political socialization variables, as home political environment.
+
+-   Alternatively, social background can be seen as a specific expectation of students' educational achievement.
+
+-   Another way to capture social inequalities involves gender, ethnicity or immigration status gaps.
+:::
+
+::: notes
+-   Socioeconomic inequality and its link with the various aspects of citizenship, it is common to observe a tendency to treat the multiple aspects of stratification as interchangeable or as a combination of the different aspects in a single indicator. As has already been shown in the literature, it is crucial to distinguish which aspect of stratification is referred to, whether the education achieved by the family, the position in the labour market, income or the literary resources available in the home. As recent publications show, distinguishing these aspects can lead to a better understanding of both the development of citizenship competencies (Miranda, 2023) and the potential compensation of inequalities of origin that the school system has (Barsegyan et al., 2024).
+
+-   An additional approach combines traditional socioeconomic variables with family political socialization variables, such as frequency of conversation with parents. This specific approach is no longer conceptualized as a measurement of socioeconomic level but rather a measure that captures inequalities in the home political environment. This combination of different aspects of social origin can complicate understanding what is compensated when the effect appears. These socioeconomic and family political environment variables are also used in the same modelling but separately. This approach may be more suitable for distinguishing underlying processes.
+
+-   Alternatively, social background can be seen as a specific expectation of students' educational achievement. This proxy is justified by the difficulty of adequately measuring the socioeconomic characteristics of the family based on the responses of young students who could omit or be unaware of certain information about their parents.
+
+-   Another way to capture social inequalities involves gender, ethnicity or immigration status gaps. In the old works of Langton & Jennings (1968), the compensation hypothesis refers to how the school can mitigate the large civic gaps between social groups. The relevant thing about this way of understanding gaps is that they make other forms of social positioning visible beyond socioeconomic inequalities.
+:::
+
+## How are civic education defined? {.small}
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   **Participatory activities (PA):** open classroom climate (perception and class average, group projects, volunteering, political visits, joint decision making, political activities (debates, student council, elections at school or mock elections), deliberation, participation at school, civic participation at school, participation in non-selective democratic activities, participation in selective democratic activities, supply of democratic activities or political contact
+
+-   **CE activities (CEA):** teaching with a newspaper, civic learning opportunities, class about politics, civic education exposure, citizenship education, instructional breadth, frequency of social studies, curricular breadth, social sciences classes, civic assessment with consequences, formal civic education, amount of civic education, curricular lessons
+
+-   **Focus on relationship**: engaged lecturing, teacher treatment, wellbeing in school, student-teacher relations or raising awareness by teacher, peers and parents
+
+-   **SES composition**: class or school SES
+:::
+
+## How are civic education defined? {.small}
+
+![](images/paste-55A212AF.png)
+
+# Discussion
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Evidence favouring the compensation hypothesis is prominent (43% of reported results support that schools' characteristics, mainly using civic education activities, can compensate inequalities of origin).
+
+    -   Aligned with previous literature, working-class students benefit more from civic education activities in schools with those characteristics than middle-class students.
+
+-   But, the evidence also shows that this effect does not occur in 47% of reported results, and even more, in a 9% the civic education foster inequalities.
+:::
+
+# Discussion
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Additionally, it noted that compensation effects are most prevalent in attitudinal and participation variables, while acceleration and maintenance effects are more evident on knowledge variables.
+
+-   Participatory activities at schools tend to show mainly maintenance or acceleration effects.
+
+-   In contrast, citizenship education activities often lead to compensation effects, particularly on participation variables.
+:::
+
+# Future research
+
+::: {.incremental .highlight-last style="font-size: 100%;"}
+-   Still, the evidence is not considered conclusive, considering the variability of proofs. This indicates that this hypothesis requires further research to unravel under what conditions it occurs and for which variables it is most generative.
+
+-   Additionally, there some challenges that must be considered.
+
+    -   Firstly, the problem of measuring the variables involved in the analysis. As could be observed for the social origin variables, the civic outcome variables and the characterization of activities aimed at citizen education present diverse approaches.
+
+-   ICCS studies could be used to evaluate the hypothesis in a systematic way (oriented to a meta-analytical frame)
+:::
+
+# Thanks!
+
+-   **NUDOS website:** [www.nudos.cl](https://www.nudos.cl/)
+-   **COES website:** [www.coes.cl](https://www.coes.cl/)
+
+## References
